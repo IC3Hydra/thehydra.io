@@ -1,0 +1,126 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Hydra Project [alpha]</title>
+    <meta name="description" content="Framework for decentralized security bounties, cryptoeconomic smart contract security on Ethereum.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/milligram.min.css">
+    <link rel="stylesheet" href="style/hydra.css">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script src="script/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <div id="topcontainer">
+        <div id="particles" class="noselect">
+            <div id="hydrabg" class="noselect"></div>
+        </div>
+        <div class="absoluteContainer">
+            <div id="text">
+                <h1 class="title"> The Hydra Project <span style="font-size: 60%; vertical-align: top; color: #aa5555;">[alpha]</span></h1>
+                <br> <b>Hydra</b> is a cutting-edge <a href="https://ethereum.org/">Ethereum</a> contract development framework for: <br><br>decentralized security and bug bounties<br>rigorous cryptoeconomic security guarantees<br>mitigating programmer and compiler error</li></ul><br><br><br><a href="https://eprint.iacr.org/2017/1090.pdf" class="larger button button-outline button-red">read the paper</a> <a href="http://github.com/IC3Hydra/Hydra" class="larger button button-outline button-red">try the alpha</a> <a href="https://riot.im/app/#/room/#hydra:matrix.org" class="larger button button-outline button-red"> Chat on Riot </a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="center" style="padding: 5rem 2rem 2rem 2rem;">
+            <h3>
+                The world's first comprehensive trust-free bounties.<br>Crafted with the first framework for cryptoeconomic contract guarantees, ever.<br><br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4GDTFugtW6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </h3>
+
+            <br>
+            <p style="color: #aa5555;"><b>[Warning]</b>: The Hydra framework is an early research prototype, and is still undergoing the extensive testing, validation, and documentation processes required to recommend it for production.  Please help us by trying to break the below bounties, and stay tuned for further release announcements! <b>Until then, remember: there be dragons here!</b></p>
+        </div>
+        <hr class="mobsep" />
+        <div class="row redtop">
+            <div class="column center redleft redright">
+                <h3 class="center" style="padding-bottom: 1rem;"> Saving Users Millions </h3>
+                <img src="img/table.png" style="display: block; margin: auto;">
+                <p style="margin-top: 2rem; margin-bottom:0;"> Programmer errors, compiler bugs, or language-specific flaws have caused a range of past smart contract failures, costing ecosystem participants millions.  Hydra directly tackles these failures, and requires a rigorous specification and development methodology that can help stamp out future losses. <br><br>Hydra directly addresses these losses by creating an <b>exploit gap</b>, turning usable exploits into trustless bounties while incentivizing honest disclosure. </p>
+            </div>
+        </div>
+        <hr class="mobsep" />
+        <div class="row redtop">
+            <div class="column column-20 center imgcenter" style="min-width: 30rem;">
+                <img src="img/nnvp.png" class="verticalimg" >
+            </div>
+            <div class="column redleft">
+                <h3 class="center" style="padding-bottom: 1rem;"> Powered by N-of-N-Version Programming </h3>
+                <p> To power the Hydra, a brand new technique called N-of-N version programming inverts the old fault tolerant software idea of <a href="https://en.wikipedia.org/wiki/N-version_programming">N-Version programming</a> (NVP).  While NVP emphasizes availability, NNVP requires consensus among its implementations to emphasize <b>integrity</b>.  Each Hydra contract is composed of several subcontracts, or <i>heads</i>.  These heads can be written in different languages, compiled with different compilers, and/or created by independent developers. By making sure all these heads agree at every step of computation, Hydra can detect potentially security-critical bugs before exploitation. These include compiler errors, developer errors, and language specific flaws.   </p>
+            </div>
+        </div>
+        <div class="row redtop">
+            <div class="column">
+                <h3 class="center" style="padding-bottom: 1rem;"> Secured by Rigorous Cryptoeconomics </h3>
+                <p> Unlike traditional NVP, which requires complete independence of programs to accomplish reasonable guarantees of correctness, <b>Hydra works even when multiple heads are vulnerable to the same exploit</b>.  As long as there is a single head in the Hydra that is not vulnerable, the contract cannot be critically exploited. Because it is possible to estimate how likely it is that any two contracts have an identical bug, we can analyze exploiting the Hydra contract as an economic game, and rigorously model the size of the bounty required to disincentivize attackers.  This means smaller bounties grant more protection, and smart contracts enjoy <b>clear, principled cryptoeconomic security guarantees.</b></p>
+            </div>
+            <div class="column column-25 redleft center hidemob" style="min-width:30rem;">
+                <img src="img/cryptoecon.png" class="verticalimg">
+            </div>
+        </div>
+        <hr class="mobsep" />
+        <div class="row redtop">
+            <div class="column column-50 center imgcenter" style="min-width: 30rem;">
+                <h3 class="center" style="padding-bottom: 1rem;"> Comprehensively Powerful </h3>
+                <div style="height:250px; padding-top: 20px;">
+                <img src="img/supported_contracts.png"></div>
+		<p>Our automatic EVM instrumenter can support the majority of contracts and transactions on the Ethereum network today automatically, with no modifications required to the contract. Over 76% of observed contracts and 61% of Ethereum contract transactions are supported.</p>
+            </div>
+            <div class="column redleft center">
+                <h3 class="center" style="padding-bottom: 1rem;"> Painstakingly Tested </h3>
+                <div style="height:250px;">
+<img src="img/testing.png"></div>
+                <p> To ensure the trusted Hydra codebase is as correct as possible, we go beyond bounties and employ the most comprehensive testing process possible for EVM instrumentation today, passing the thousands of thorough and consensus-critical tests securing Ethereum itself. </p>
+            </div>
+        </div>
+        <div class="row redtop">
+            <div class="column center">
+                <h2>(1) Specify </h2>
+                <p> The start to a comprehensive Hydra is a rigorous specification, allowing developers to implement heads independently.  Specification is always useful when developing with high assurance. 
+            </div>
+            <div class="column redleft center">
+                <h2> (2) Implement </h2>
+                <p> With specification in-hand, each developer can implement the target contract, and unit tests that exercise all its functionality.  These test suites can all be run on the Hydra contract to find further errors.  </p>
+            </div>
+            <div class="column redleft center">
+                <h2> (3) Instrument </h2>
+                <p> After writing the programs, our <a href="https://github.com/IC3Hydra/Hydra/tree/master/hydra/instrumenter">instrumenter</a> automatically compiles your contract heads to EVM, combines them through our <a href="https://github.com/IC3Hydra/Hydra/blob/master/hydra/metacontract/Hydra.sol">Solidity meta contract</a>, and deploys.  A <a href="https://github.com/IC3Hydra/Hydra/blob/master/README.md#deploying-a-production-bounty">single Python call</a> is all you need. </p>
+            </div>
+        </div>
+        <hr class="mobsep" />
+        <div class="row" style="max-height: 50rem;">
+            <div class="column column-80 column-offset-10 redtop redleft redright center">
+                <h2> Deployed bounties (<a href="https://etherscan.io/">Ethereum mainnet</a>)</h2>
+                <p> 
+                <ul style="font-size: 2rem;">
+                    <li> ERC20: <b>Deployed</b> @ <span class="mobilesmallfont"><a href="https://etherscan.io/address/0xf4ee935a3879ff07362514da69c64df80fa28622">0xf4ee935a3879ff07362514da69c64df80fa28622</a></span>.  Value 3ETH~=2600 USD.<br> 
+                        <small>code: <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/ERC20/ERC20.v.py">[1]</a>, <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/ERC20/nonviper/ERC20_serpent.se">[2]</a>, <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/ERC20/nonviper/ERC20_solidity_1.sol">[3]</a>, <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/ERC20/nonviper/ERC20_solidity_2.sol">[4]</a> | tests: <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/ERC20/test/erc20_tests_1.py">[1]</a>, <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/ERC20/test/erc20_tests_2.py">[2]</a>, <a href="https://github.com/IC3Hydra/Hydra/tree/master/examples/ERC20/test">[more]</a> | <a href="https://raw.githubusercontent.com/IC3Hydra/Hydra/master/examples/ERC20/ABI">abi</a> | <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md">spec</a></small> 
+                    </li>
+                    <li> Monty Hall: <b> In testing / Coming soon </b><br>
+                        <small>code: <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/MontyHall/heads/MontyHall_florian.se">[1]</a>, <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/MontyHall/heads/MontyHall_florian.sol">[2]</a>, <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/MontyHall/heads/MontyHall_lorenz.sol">[3]</a>, [4] | test: <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/MontyHall/test/differential_test.py">[1]</a> | abi | <a href="https://github.com/IC3Hydra/Hydra/blob/master/examples/MontyHall/spec.rst">spec</a></small> 
+                    </li>
+                </ul>
+                </p> 
+            </div>
+        </div>
+        <hr class="mobsep" />
+        <div class="row">
+            <div class="column column-100 redtop redleft redright center" style="padding-bottom: 0px !important; margin-bottom: 0px;">
+                <h2> The Heads </h2>
+            </div>
+        </div>
+        <div class="row redleft redright">
+            <div class="column center portraitcol"><img class="teamshot" src="img/team/lorenz.jpg" /><br><b> <a href="https://twitter.com/ethlorenz">Lorenz Breidenbach</a> </b><br> ETH Zürich, Cornell Tech</div>
+            <div class="column center portraitcol"><img class="teamshot" src="img/team/phil.jpg" /><br><b> <a href="https://pdaian.com/">Philip Daian</a> </b><br> Cornell Tech, IC3</div>
+            <div class="column center portraitcol"><img class="teamshot" src="img/team/florian.jpg" /><br><b> <a href="http://floriantramer.com/">Florian Tramer</a> </b><br> Stanford</div>
+            <div class="column center portraitcol"><img class="teamshot" src="img/team/ari.jpg" /><br><b> <a href="http://arijuels.com/">Ari Juels</a> </b><br> Cornell Tech, IC3</div>
+        </div>
+        <script src="script/particles.min.js"></script>
+        <script src="script/app.js"></script>
+        <div class="center" style="margin-bottom:3rem; margin-top: 4rem;">Project of<br><a href="http://initc3.org/"><img src="img/ic3.png" style="width:50rem;"></img></a><br><br>Friends of <b><a href="http://hackthiscontract.io/">Hack This Contract</a></b><br>100% MIT licensed.<br><br><i>This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant No. .<br>We would also like to thank NSF CNS-1330599, CNS-1514163, CNS-1564102, and CNS-1704615, ARL W911NF-16-1-0145, and IC3 Industry Partners.<br>Any opinion, findings, and conclusions or recommendations expressed in this material are those of the authors(s) and do not necessarily reflect the views of the National Science Foundation.
+</i></div>
+    </div>
+</body>
